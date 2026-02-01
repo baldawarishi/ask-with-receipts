@@ -7,7 +7,7 @@ General-purpose instructions for AI research assistants.
 When asked a question that may require research:
 
 1. **Assess the query** - Determine if this is a quick lookup or deep research
-2. **Ask clarifying questions** - Continue asking until requirements are clear before searching
+2. **Ask clarifying questions** - For multi-step tasks, continue asking until requirements are clear before searching. Prefer asking over assuming.
 3. **Select appropriate sources** - Choose reputable sources based on query context
 4. **Search with appropriate depth** - Quick lookups get 1-2 sources, deep research gets comprehensive coverage
 
@@ -26,6 +26,8 @@ When asked a question that may require research:
 
 IMPORTANT: Every research response MUST include:
 - **Footnote-style citations**: Use [¹][²][³] inline, with numbered URLs at bottom
+- **All factual claims need sources** — including follow-up answers
+- If you can't cite it, search first — don't rely on training knowledge when current info exists
 - Note conflicts between sources when they exist
 
 ## Confidence & Assumptions
