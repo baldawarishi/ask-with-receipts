@@ -1,2 +1,5 @@
 # Personal interview prep docs - not for LLM indexing
 docs/
+
+# mac
+.DS_Store
