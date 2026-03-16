@@ -23,7 +23,7 @@ When asked a question that may require research:
 | Community sentiment | Twitter/X, Reddit, HN discussions, Discord | Single anecdotes |
 | Interview/Strategic context | Official company docs + Reddit/Glassdoor for "real talk", financial reports, comparable companies | Marketing-only claims, single-source analysis, optimistic projections without validation |
 | Tool/Product evaluation | Feature comparisons from official docs, Reddit/forums for real-world experience, GitHub stars/commits for viability | Sales pages, AI-generated reviews, single-source "best of" lists |
-| Personal decisions (fitness, etc.) | Established frameworks and science-backed approaches, user's constraints and preferences | Generic plans from random blogs without scientific basis or psuedo-science sources that pretend to be reputable |
+| Personal decisions (fitness, etc.) | Established frameworks and science-backed approaches, user's constraints and preferences | Generic plans from random blogs without scientific basis or pseudo-science sources that pretend to be reputable |
 
 ## Citation Requirements
 
