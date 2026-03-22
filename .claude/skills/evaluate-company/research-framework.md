@@ -12,7 +12,7 @@ This framework synthesizes approaches from:
 - **Reforge "Reverse Interview" (Elena Verna, Crystal Widjaja)**: Back-channel the company just as they back-channel you. The consequence of a bad career decision is bigger for you than for them. Talk to people who have left. [Source: reforge.com/blog/reverse-interview]
 - **OpenAI/Wharton "GPTs are GPTs" (Eloundou, Manning, Mishkin, Rock, 2023)**: Task-level AI exposure framework — ~80% of US workforce has at least 10% of tasks affected by LLMs, ~19% may see 50%+ affected. Higher-income jobs face greater exposure. [Source: arxiv.org/abs/2303.10130]
 - **Glassdoor Economic Research on layoff impacts (2024-2025)**: Quantified effects — 0.13-star rating drop post-layoff, 2+ year recovery, "forever layoffs" pattern emerging (51% of WARN notices now <50 people). [Source: glassdoor.com/blog/layoffs-cast-a-long-shadow/]
-- **Psychology Today / I/O Psychology (Lauren Florko, Ph.D., 2025)**: Unstructured interviews have validity of .20 vs .63 for structured — companies using unstructured processes are both biased and making worse hires. [Source: psychologytoday.com/us/blog/people-planet-profits/202509/how-to-spot-hidden-clues-when-job-hunting]
+- **Psychology Today / I/O Psychology (Lauren Florko, Ph.D., 2025)**: Unstructured interviews have lower predictive validity than structured interviews — companies using unstructured processes are both biased and making worse hires. [Source: psychologytoday.com/us/blog/people-planet-profits/202509/how-to-spot-hidden-clues-when-job-hunting] Updated validity estimates from Sackett et al. (2022): unstructured ρ = .19, structured ρ = .42. Earlier Schmidt & Hunter (1998) estimates of .51/.38 used different range restriction corrections now considered overcorrected. [Source: psycnet.apa.org/record/2022-17327-001]
 - **Academic validation of Glassdoor (Huang, Li & Markov, 2020-2023)**: Employee business outlook ratings predict future business performance. Divergence between employee outlook and management forecasts predicts declining ROA and higher CEO turnover. [Source: scholarworks.bgsu.edu]
 
 ## Financial Health Evaluation Criteria
@@ -27,7 +27,7 @@ This framework synthesizes approaches from:
 | Current ratio | > 1.5 | < 1.0 (may struggle with obligations) |
 | Employee growth vs revenue growth | Growing in proportion | Headcount growing much faster than revenue |
 
-**Important:** Revenue growth can be a vanity metric if not coupled with strong gross margin. Dig into: churn %, lifetime value, recurring vs. non-recurring revenue %, customer concentration. A 20% fall in sales historically correlates with ~8% headcount reduction [CITATION NEEDED].
+**Important:** Revenue growth can be a vanity metric if not coupled with strong gross margin. Dig into: churn %, lifetime value, recurring vs. non-recurring revenue %, customer concentration. Revenue declines commonly trigger headcount reductions, but the ratio varies widely by industry, company stage, and cost structure — there is no reliable universal formula. [Source: Cascio & Morris (1994) found firms cut 28-31% of workforce over multi-year periods, but this was extreme cases, not a general ratio. See sciencedirect.com/science/article/abs/pii/S0149206399000483]
 
 ### Private Companies (Limited Data)
 | Signal | Where to Find It |
@@ -165,7 +165,7 @@ Culture matters more than role fit because "everybody's job changes over time" �
 - Employee outlook ratings diverging from management narrative is a strong predictive signal (academic research)
 
 ### Interview Process as a Culture Signal (Psychology Today/I/O Psychology)
-- **Red flags:** >2 interview rounds (poor process), unstructured interviews (validity .20 vs .63) [CITATION NEEDED: numbers conflate Sackett et al. 2022 and Schmidt & Hunter 1998 composite], illegal questions, vague role definition, 48-hour scheduling demands, pressure to accept quickly
+- **Red flags:** >2 interview rounds (poor process), unstructured interviews (validity .19 vs .42 for structured per Sackett et al. 2022 — structured interviews have more than double the predictive power) [Source: Sackett, Zhang, Berry & Lievens (2022), "Revisiting meta-analytic estimates of validity in personnel selection," Journal of Applied Psychology, 107, 2040-2068. See psycnet.apa.org/record/2022-17327-001], illegal questions, vague role definition, 48-hour scheduling demands, pressure to accept quickly
 - **Yellow flags:** "family" or "passion" language (blurred boundaries), missing salary in pay-transparency jurisdictions
 - **Green flags:** Standardized questions with evaluation criteria, 2+ interviewers, candidate question time, clear duties and reporting structure, consistent messaging across recruiter/manager/posting
 
@@ -232,3 +232,5 @@ Based on research gaps, suggest questions from these categories:
 15. [BCG: Closing the AI Impact Gap](https://www.bcg.com/publications/2025/closing-the-ai-impact-gap)
 16. [Federal Reserve: Tracking Layoffs with SEC Filings](https://www.federalreserve.gov/econres/feds/files/2024020pap.pdf)
 17. [Science/AAAS: Employment Due Diligence](https://www.science.org/content/article/tooling-employment-due-diligence)
+18. [Sackett et al. (2022): Revisiting Meta-Analytic Estimates of Validity in Personnel Selection](https://psycnet.apa.org/record/2022-17327-001)
+19. [Cascio & Morris (1994): Impact of Workforce Reductions on Financial Performance](https://www.sciencedirect.com/science/article/abs/pii/S0149206399000483)
