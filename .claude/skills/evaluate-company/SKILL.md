@@ -10,6 +10,16 @@ allowed-tools: Read, Grep, Glob, WebSearch, WebFetch, Agent
 
 Evaluate **$ARGUMENTS** as a potential employer. Produce a structured, source-backed assessment using the research framework below.
 
+## Mode
+
+If the argument includes "quick" (e.g., `/evaluate-company quick acmecorp`), produce a condensed version:
+- Skip dimensions 5, 8, and 10 (AI Disruption Risk, Ethics, Competitive Context)
+- Shorten each remaining section to 2-3 bullets
+- Still include TL;DR, Overall Signal, and Key Questions to Ask
+- Still cite sources
+
+Otherwise, produce the full report.
+
 ## Instructions
 
 1. **Search broadly first.** Run parallel web searches across multiple dimensions (see Research Dimensions below). Use the source selection rules from `@agents.md` — prioritize official docs, SEC filings, Glassdoor, Reddit, HN, and reputable news. Avoid SEO-farm content and AI-generated review sites.
@@ -94,7 +104,7 @@ Look for: engineering blog posts, product announcements mentioning AI, job posti
 - Read 2-3 star reviews for the most balanced signal. Look for patterns, not individual complaints.
 - Adam Grant's Career/Community/Cause lens: Does the company develop careers, invest in community, and have a meaningful cause?
 - Employee development: Does the company invest in learning, internal mobility, mentorship? Lateral career opportunities are 2.5x more important than compensation for retention (MIT Sloan).
-- Interview process quality: Unstructured interviews (validity .20) signal a company that is both biased and making worse hires vs. structured (.63). [CITATION NEEDED: these numbers conflate multiple meta-analyses; see research-framework.md]
+- Interview process quality: Unstructured interviews (validity .19) have less than half the predictive power of structured (.42) per Sackett et al. 2022 — companies using unstructured processes are both biased and making worse hires. See research-framework.md for full citation.
 - Management quality signals from review sites.
 - Diversity & inclusion: published reports, reputation, lawsuits.
 
