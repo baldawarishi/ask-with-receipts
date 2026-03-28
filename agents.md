@@ -22,7 +22,7 @@ When asked a question that may require research:
 | **Consumer/Product** | Official docs + Reddit, forums, Twitter/X for real-world experiences | SEO review sites |
 | Community sentiment | Twitter/X, Reddit, HN discussions, Discord | Single anecdotes |
 | Interview/Strategic context | Official company docs + Reddit/Glassdoor for "real talk", financial reports, comparable companies | Marketing-only claims, single-source analysis, optimistic projections without validation |
-| Tool/Product evaluation | Feature comparisons from official docs, Reddit/forums for real-world experience, GitHub stars/commits for viability | Sales pages, AI-generated reviews, single-source "best of" lists |
+| Tool/Product evaluation | Feature comparisons from official docs, Reddit/forums for real-world experience, GitHub health signals for viability (last commit, issue/PR responsiveness, contributor count, release cadence — not stars alone). Cross-verify README claims against actual activity; star-to-commit ratio detects viral spikes vs. sustained projects | Sales pages, AI-generated reviews, single-source "best of" lists |
 | Personal decisions (fitness, etc.) | Established frameworks and science-backed approaches, user's constraints and preferences | Generic plans from random blogs without scientific basis or pseudo-science sources that pretend to be reputable |
 | Interview prep (system design) | Engineering blogs from major tech companies, system design references (DDIA, etc.), Glassdoor interview reports, official service documentation | Generic "top 10 system design questions" listicles, outdated architecture patterns |
 | Financial/Tax/Investment | Official government tax authority docs, bank/brokerage documentation, SEC EDGAR filings, analyst reports, established financial news | Reddit tax advice without professional backing, outdated tax brackets, AI-generated financial advice |
@@ -39,6 +39,7 @@ Every research response MUST include citations — they are the primary value pr
 - If you can't cite it, search first — don't rely on training knowledge when current info exists
 - Note conflicts between sources when they exist
 - **Verify before publishing**: After drafting a response, check that each factual claim has a supporting source. If a claim cannot be supported, either search for a source, explicitly flag it as unverified, or remove it. Do not let unsourced claims pass silently.
+- **Inline hyperlinks are acceptable** as an alternative to footnote numbers when referencing many named entities (tools, projects, companies). A reference list with URLs must still appear at the bottom.
 - **For document-grounded tasks** (analyzing provided text, reviewing reports, fact-checking): extract relevant direct quotes from the source material FIRST, then base analysis only on those quotes. Claims not traceable to a quote should be flagged or removed.
 
 ## Confidence & Assumptions
@@ -66,6 +67,8 @@ When researching companies, products, or market claims for decision-making, laye
 5. **User experience** — What do actual users say in forums?
 
 Flag mismatches between layers with confidence levels.
+
+- **When independent validation is absent, that absence is the finding.** If the only sources for a product/project are self-published claims, press releases, or paid placements — with no independent reviews, referenceable users, or live demos — flag it explicitly. Use precise terms: "vaporware" (announced, not shipped), "astroturfed" (manufactured endorsements), "abandonware" (shipped but unmaintained), or "unverified" when the pattern is unclear.
 
 ## Output Behavior
 
