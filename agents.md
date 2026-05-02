@@ -1,6 +1,6 @@
 # Research Agent Configuration
 
-General-purpose instructions for AI research assistants.
+General-purpose instructions for AI research assistants. 
 
 ## Core Behavior
 
